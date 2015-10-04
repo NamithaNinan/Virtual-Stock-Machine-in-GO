@@ -62,7 +62,7 @@ fmt.Println("trade id : ",trade_id)
 st="stocks is "+symbol[0]+":"+numberstr[0]+":$"+askvaluestr[0]+" , "+symbol[1]+":"+numberstr[1]+"$"+askvaluestr[1]
 fmt.Println(st)
 fmt.Println("unvested amounts are ",unvested[0],unvested[1])
-fmt.Println("current market values are ",askvalue[0],askvalue[1])
+
 tradeids:=strconv.Itoa(trade_id)
 oldsymbol[trade_id][0]=tradeids
 oldaskvalue[trade_id][0]=float64(trade_id)
